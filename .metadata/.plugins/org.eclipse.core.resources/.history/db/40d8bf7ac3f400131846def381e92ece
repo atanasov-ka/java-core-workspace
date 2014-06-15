@@ -1,0 +1,18 @@
+import java.util.List;
+
+public class CollectionsUtil {
+	public static List<Integer> sort(List<Integer> aList) {
+
+		return aList;
+	}
+
+	public static List<Integer> reverse(List<Integer> aList) {
+		return aList;
+	}
+	
+	public static boolean isMonotonous (List<Integer> aList)
+	{
+		
+		return false;
+	}
+}
