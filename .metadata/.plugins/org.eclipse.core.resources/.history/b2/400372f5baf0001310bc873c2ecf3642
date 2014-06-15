@@ -1,0 +1,21 @@
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class TestHashMapToString {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testToStringHashMap() {
+		Map<Integer, Character> map = new HashMap<>();
+		
+		String r = HashMapUtils.toStringHashMap((HashMap<?, ?>)map);
+	}
+
+}

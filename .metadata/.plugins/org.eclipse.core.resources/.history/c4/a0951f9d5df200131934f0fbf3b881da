@@ -1,0 +1,23 @@
+import java.util.Stack;
+
+
+public class XmlMarkupBuilder {
+	private Stack<String> stack = new Stack<>();
+	public XmlMarkupBuilder openTag(String aTag)
+	{
+		return this;
+	}
+	
+	public XmlMarkupBuilder closeTag()
+	{
+		return this;
+	}
+	
+	public XmlMarkupBuilder addAttribute(String attribName, String attribValued)
+	{
+		return this;
+	}
+	
+	
+	
+}

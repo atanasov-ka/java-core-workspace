@@ -1,0 +1,9 @@
+
+public class BoundedQueue<T> {
+	private int limit;
+	public BoundedQueue(int limit)
+	{
+		this.limit = limit;
+	}
+	
+}

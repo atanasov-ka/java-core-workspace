@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		try {
+			doExcept();
+		} catch (ServiceNotAvailableAtTheMoment e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	private static void doExcept() throws ServiceNotAvailableAtTheMoment {
+		throw new ServiceNotAvailableAtTheMoment("EEEEEhhaaaaa!");
+		
+	}
+
+}

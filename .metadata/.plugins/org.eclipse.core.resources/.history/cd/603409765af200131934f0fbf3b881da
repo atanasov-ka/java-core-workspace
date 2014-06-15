@@ -1,0 +1,6 @@
+
+public class HashMapNullException extends RuntimeException {
+	public HashMapNullException(String aMessage) {
+		super(aMessage);
+	}
+}

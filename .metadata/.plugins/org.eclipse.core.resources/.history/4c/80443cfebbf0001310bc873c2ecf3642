@@ -1,0 +1,23 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+
+public class HashMapUtils {
+	public static String toStringHashMap (HashMap<? extends Object, ? extends Object> aInput) {
+		Set<?> keySet = aInput.keySet();
+		String result = "";
+		for (Object item : keySet) {
+			Object val = aInput.get(item);
+			result += String.format("%s : [%s]\r\n", item, val);
+		}
+		return result;
+	}
+	
+	public static HashMap<String, Integer> countWords(String aInput) {
+		String[] words = aInput.split(" ");
+		Map<String, Integer> result = new HashMap<>();
+		
+		return result;
+	}
+}

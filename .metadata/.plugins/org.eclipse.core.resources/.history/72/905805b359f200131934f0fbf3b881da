@@ -1,0 +1,6 @@
+import java.util.HashMap;
+
+
+public class NotNullHashMap<K, V> extends HashMap<K, V>{
+	
+}

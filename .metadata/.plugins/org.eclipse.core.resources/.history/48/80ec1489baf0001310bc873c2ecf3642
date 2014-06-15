@@ -1,0 +1,11 @@
+import java.util.HashMap;
+
+
+public class HashMapUtils {
+	public static String toStringHashMap (HashMap<? extends Object, ? extends Object> aInput) {
+		for (HashMap<Object, Object> item : aInput) {
+			
+		}
+		return "";
+	}
+}

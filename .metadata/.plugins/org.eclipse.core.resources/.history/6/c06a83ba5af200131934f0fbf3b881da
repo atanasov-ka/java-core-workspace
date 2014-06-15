@@ -1,0 +1,16 @@
+
+public class HashMapNullException extends RuntimeException {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	
+	private int c = 3;
+	private float d = 3;
+	public HashMapNullException(String aMessage) {
+		
+		
+		super(aMessage);
+	}
+}

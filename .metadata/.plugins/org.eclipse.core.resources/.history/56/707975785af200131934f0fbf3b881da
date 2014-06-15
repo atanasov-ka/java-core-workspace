@@ -1,0 +1,9 @@
+import java.util.HashMap;
+
+
+public class NotNullHashMap<K, V> extends HashMap<K, V>{
+	private boolean isCanPutNull;
+	public <K, V>NotNullHashMap (boolean isCanPutNull) {
+		this.isCanPutNull = isCanPutNull;
+	}
+}

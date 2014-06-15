@@ -1,0 +1,11 @@
+
+public class Student {
+	private int grade;
+	private String name;
+	public Student(int grade, String name)
+	{
+		this.grade = grade;
+		this.name = name;
+	}
+	
+}
