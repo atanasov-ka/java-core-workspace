@@ -1,0 +1,20 @@
+
+public class DateLogger extends Logger {
+
+	public public DateLogger() {
+		super(3);
+	}
+	
+	@Override
+	public void log(int aLogLevel, String aMessage) {
+		// TODO Auto-generated method stub
+		super.log(aLogLevel, aMessage);
+	}
+
+	@Override
+	public void log(String aMessage) {
+		// TODO Auto-generated method stub
+		super.log(aMessage);
+	}
+	
+}

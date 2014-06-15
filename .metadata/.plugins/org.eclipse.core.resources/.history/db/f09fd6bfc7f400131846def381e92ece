@@ -1,0 +1,48 @@
+public class Logger {
+	protected int mLogLevel;
+
+	public Logger(int aLogLevel) {
+		mLogLevel = aLogLevel;
+	}
+
+	public Logger() {
+		this(3);
+	}
+
+	public Logger(Logger copyFrom) {
+		this(copyFrom.getLevel());
+	}
+
+	public int getLevel() {
+		return mLogLevel;
+	}
+
+	public void setLevel(int aLogLevel) {
+		if (aLogLevel >= 1 && aLogLevel <= 6)
+		{
+			mLogLevel = aLogLevel;
+		}
+		else
+		{
+			/// TODO
+		}
+	}
+
+	public void log(int aLogLevel, String aMessage) {
+		if (!isValidLevelToLog(aLogLevel))
+			return;
+		System.out.println(String.format("$s => $s", aLogLevel, aMessage));
+	}
+
+	public void log(String aMessage) {
+		log(mLogLevel, aMessage);
+	}
+
+	private boolean isValidLevelRange(int aLogLevel) {
+		return 
+	}
+
+	private boolean isValidLevelToLog(int aLogLevel) {
+		return aLogLevel <= mLogLevel;
+	}
+}

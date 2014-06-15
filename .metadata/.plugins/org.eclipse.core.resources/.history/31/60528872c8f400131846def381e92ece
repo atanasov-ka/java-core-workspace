@@ -1,0 +1,21 @@
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+public class DateLogger extends Logger {
+
+	public DateLogger() {
+		super(3);
+	}
+
+	@Override
+	public void log(int aLogLevel, String aMessage) {
+		aMessage = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime()) + aMessage;
+		System.out.println(String.format("|$s| $s", getFormatedLog(aLogLevel, aMessage)));
+	}
+
+	@Override
+	public void log(String aMessage) {
+		log(super.mLogLevel, aMessage);
+	}
+
+}

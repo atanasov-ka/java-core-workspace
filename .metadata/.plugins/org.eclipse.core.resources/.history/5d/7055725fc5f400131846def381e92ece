@@ -1,0 +1,19 @@
+public class Logger {
+	private int mLogLevel;
+
+	public Logger(int aLogLevel) {
+		mLogLevel = aLogLevel;
+	}
+
+	public Logger() {
+		this(3);
+	}
+
+	public void log(int aLogLevel, String aMessage) {
+
+	}
+
+	public void log(String aMessage) {
+		log(mLogLevel, aMessage);
+	}
+}

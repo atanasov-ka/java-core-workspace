@@ -1,0 +1,24 @@
+public class Logger {
+	private int mLogLevel;
+
+	public Logger(int aLogLevel) {
+		mLogLevel = aLogLevel;
+	}
+
+	public Logger() {
+		this(3);
+	}
+	public Logger(Logger copyFrom) {
+		this(copyFrom.getLogLevel());
+	}
+	public int getLogLevel() {
+		return mLogLevel;
+	}
+	public void log(int aLogLevel, String aMessage) {
+
+	}
+
+	public void log(String aMessage) {
+		log(mLogLevel, aMessage);
+	}
+}
