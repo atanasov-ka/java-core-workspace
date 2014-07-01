@@ -1,0 +1,25 @@
+﻿class File - представя път до директория или до файл, а не файл
+	mkdir - създава последната папка
+	mkdirs - създава и междинните, липсващи
+	.createNewFile
+	.delete
+	.renameTo
+	delete - трябва директорията да е празна
+
+bytes[] = new String(char[]).getBytes(Encoding)
+
+Streams:
+BufferedInputStream - всеки стринг може да го направим на buffered. За големи файлове!
+
+Readers/Writers:
+InputStreamReader
+FileReader
+OutputStreamWriter
+
+class Path - път, не е closable, нито autoClosable!
+class Files .delete(Path);
+
+Path relative = a.relativisizes(b);
+
+File f
+. listFiles();

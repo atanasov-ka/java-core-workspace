@@ -1,7 +1,0 @@
-
-public class DatabaseCorruptedException extends RuntimeException {
-	
-	public DatabaseCorruptedException(String aMessage) {
-		super(aMessage);
-	}
-}

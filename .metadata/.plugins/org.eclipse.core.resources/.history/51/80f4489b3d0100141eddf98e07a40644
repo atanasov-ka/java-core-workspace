@@ -1,0 +1,12 @@
+
+public class ImageConverter {
+	public byte[] read(String path)
+	{
+		return null;
+	}
+	
+	public String convert(int intensity)
+	{
+		return  "#";
+	}
+}

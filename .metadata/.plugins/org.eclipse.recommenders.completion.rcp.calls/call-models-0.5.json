@@ -28,5 +28,20 @@
     "location": "D:\\Users\\John\\workspace\\Exceptions1\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\Users\\John\\workspace\\Exceptions1\\src\u0027. Skipped."
+  },
+  "D:\\Users\\John\\workspace2\\Exam1\\src": {
+    "location": "D:\\Users\\John\\workspace2\\Exam1\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Users\\John\\workspace2\\Exam1\\src\u0027. Skipped."
+  },
+  "D:\\Users\\John\\workspace2\\Files\\src": {
+    "location": "D:\\Users\\John\\workspace2\\Files\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Users\\John\\workspace2\\Files\\src\u0027. Skipped."
+  },
+  "D:\\Users\\John\\workspace2\\ImageReader\\src": {
+    "location": "D:\\Users\\John\\workspace2\\ImageReader\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Users\\John\\workspace2\\ImageReader\\src\u0027. Skipped."
   }
 }

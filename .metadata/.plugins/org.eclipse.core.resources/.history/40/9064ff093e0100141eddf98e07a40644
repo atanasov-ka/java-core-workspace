@@ -1,0 +1,19 @@
+
+public class ImageConverter {
+	
+	
+	
+	private byte[] read(String path)
+	{
+		return null;
+	}
+	
+	private String convert(int intensity)
+	{
+		return  "#";
+	}
+
+	public void exec(String string) {
+		
+	}
+}

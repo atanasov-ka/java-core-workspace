@@ -1,0 +1,27 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
+
+
+public class FileUtils {
+	private FileUtils() {
+		
+	}
+	
+	public String readFrom(File file)
+	{
+		
+		byte [] bytes = Files.readAllBytes(file.toPath(), Charset.defaultCharset());
+		
+		return contents;
+	}
+	
+	public String readFrom(Path path)
+	{
+		String contents = "";
+		return contents;
+	}
+}

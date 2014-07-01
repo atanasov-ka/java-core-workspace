@@ -1,0 +1,30 @@
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.net.URI;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+
+public class ImageConverter {
+	
+	
+	
+	private byte[] read(String path)
+	{
+		return null;
+	}
+	
+	private String convert(int intensity)
+	{
+		return  "#";
+	}
+
+	public void exec(String string) {
+		BufferedImage buffer = new BufferedImage(300, 200, BufferedImage.TYPE_INT_RGB);
+		Path path = Paths.get(new URI(string));
+		byte[] bytes = Files.readAllBytes(path);
+		
+		 
+	}
+}

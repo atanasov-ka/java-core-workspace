@@ -1,7 +1,0 @@
-
-public class Logger {
-	private int mLogLevel;
-	public Logger (int aLogLevel){
-		mLogLevel = aLogLevel;
-	}
-}

@@ -181,3 +181,7 @@ java.util.concurrent.CancellationException: null
 	at java.lang.Thread.run(Unknown Source) ~[na:1.7.0_40]
 2014-06-12 20:25:04,905 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
 2014-06-15 22:17:13,185 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-06-24 19:51:56,543 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-06-26 19:06:23,883 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-01 19:31:02,446 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-01 23:48:40,833 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16

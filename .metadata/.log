@@ -2677,3 +2677,292 @@ java.lang.UnsupportedOperationException: Operation only supported in JLS2, JLS3 
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+!SESSION 2014-06-24 18:20:27.070 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-06-24 18:21:14.270
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\John'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-06-26 18:19:11.263 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-06-26 18:19:48.230
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\John'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2014-06-26 18:34:17.280
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2014-06-26 18:34:25.245
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2014-06-26 18:34:35.538
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/artifacts.jar
+!SESSION 2014-06-26 18:35:07.383 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-06-26 18:35:29.803
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\John'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2014-06-26 18:41:59.940
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2014-06-26 18:43:05.004
+!MESSAGE Server returned lastModified <= 0 for http://market.eclipsesource.com/yoxos/mpc/latestrepo/org.eclipse.jdt.feature.group/4.3.2.v20140221-1700/compositeContent.xml
+
+!ENTRY org.eclipse.equinox.p2.discovery 4 0 2014-06-26 18:43:44.529
+!MESSAGE MarketplaceDiscoveryStrategy failed with an error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to http://market.eclipsesource.com/yoxos/popular/top/api/p?product=org.eclipse.epp.package.java.product&os=win32&runtime.version=3.9.100.v20131218-1515&client=org.eclipse.epp.mpc.core&java.version=1.7.0_40&product.version=2.0.2.20140224-0000&ws=win32&platform.version=4.3.2.v20140221-1700&nl=en_US: http://market.eclipsesource.com/yoxos/popular/top/api/p?product=org.eclipse.epp.package.java.product&os=win32&runtime.version=3.9.100.v20131218-1515&client=org.eclipse.epp.mpc.core&java.version=1.7.0_40&product.version=2.0.2.20140224-0000&ws=win32&platform.version=4.3.2.v20140221-1700&nl=en_US
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:155)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:85)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:72)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:352)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$7.doSearch(CachingMarketplaceService.java:183)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:120)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:181)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:411)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog$3.run(MarketplaceCatalog.java:91)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:333)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:89)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer$3.run(MarketplaceViewer.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: http://market.eclipsesource.com/yoxos/popular/top/api/p?product=org.eclipse.epp.package.java.product&os=win32&runtime.version=3.9.100.v20131218-1515&client=org.eclipse.epp.mpc.core&java.version=1.7.0_40&product.version=2.0.2.20140224-0000&ws=win32&platform.version=4.3.2.v20140221-1700&nl=en_US
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:474)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:431)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.read(FileReader.java:273)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:172)
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.epp.internal.mpc.core.util.AbstractP2TransportFactory.invokeStream(AbstractP2TransportFactory.java:35)
+	at org.eclipse.epp.internal.mpc.core.util.TransportFactory$1.stream(TransportFactory.java:69)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:131)
+	... 12 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2014-06-26 18:43:44.533
+!MESSAGE Cannot complete request to http://market.eclipsesource.com/yoxos/popular/top/api/p?product=org.eclipse.epp.package.java.product&os=win32&runtime.version=3.9.100.v20131218-1515&client=org.eclipse.epp.mpc.core&java.version=1.7.0_40&product.version=2.0.2.20140224-0000&ws=win32&platform.version=4.3.2.v20140221-1700&nl=en_US: http://market.eclipsesource.com/yoxos/popular/top/api/p?product=org.eclipse.epp.package.java.product&os=win32&runtime.version=3.9.100.v20131218-1515&client=org.eclipse.epp.mpc.core&java.version=1.7.0_40&product.version=2.0.2.20140224-0000&ws=win32&platform.version=4.3.2.v20140221-1700&nl=en_US
+!STACK 0
+java.io.FileNotFoundException: http://market.eclipsesource.com/yoxos/popular/top/api/p?product=org.eclipse.epp.package.java.product&os=win32&runtime.version=3.9.100.v20131218-1515&client=org.eclipse.epp.mpc.core&java.version=1.7.0_40&product.version=2.0.2.20140224-0000&ws=win32&platform.version=4.3.2.v20140221-1700&nl=en_US
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:474)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:431)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.read(FileReader.java:273)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:172)
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.epp.internal.mpc.core.util.AbstractP2TransportFactory.invokeStream(AbstractP2TransportFactory.java:35)
+	at org.eclipse.epp.internal.mpc.core.util.TransportFactory$1.stream(TransportFactory.java:69)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:131)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:85)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:72)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:352)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService$7.doSearch(CachingMarketplaceService.java:183)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:120)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:181)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:411)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog$3.run(MarketplaceCatalog.java:91)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:333)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:89)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer$3.run(MarketplaceViewer.java:351)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2014-06-26 18:45:48.025 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-06-26 18:46:38.552
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\John'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2014-06-26 18:47:22.117
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+!SESSION 2014-06-26 18:47:54.813 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-06-26 18:48:14.257
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\John'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-06-26 18:49:12.447 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-06-26 18:49:46.409
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\John'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.rcp.utils 1 0 2014-06-26 21:09:24.239
+!MESSAGE exception while checking editor offset
+!STACK 1
+Java Model Exception: Java Model Status [Exam1 does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:539)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1173)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:552)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:289)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:908)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.isInvalidSelection(JavaSelectionUtils.java:181)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromTypeRootInEditor(JavaSelectionUtils.java:142)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromEditor(JavaSelectionUtils.java:129)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromEditor(JavaSelectionUtils.java:112)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider.handleSelectionInEditor(JavaSelectionProvider.java:108)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider.access$1(JavaSelectionProvider.java:105)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider$1.run(JavaSelectionProvider.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2014-06-26 21:09:24.241
+!MESSAGE Exam1 does not exist
+
+!ENTRY org.eclipse.recommenders.rcp.utils 1 0 2014-06-26 21:09:24.247
+!MESSAGE exception while checking editor offset
+!STACK 1
+Java Model Exception: Java Model Status [Exam1 does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:539)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1173)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:552)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:289)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:908)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.isInvalidSelection(JavaSelectionUtils.java:181)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromTypeRootInEditor(JavaSelectionUtils.java:172)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromEditor(JavaSelectionUtils.java:129)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromEditor(JavaSelectionUtils.java:112)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider.handleSelectionInEditor(JavaSelectionProvider.java:108)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider.access$1(JavaSelectionProvider.java:105)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider$1.run(JavaSelectionProvider.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2014-06-26 21:09:24.248
+!MESSAGE Exam1 does not exist
+
+!ENTRY org.eclipse.recommenders.rcp.utils 4 0 2014-06-26 21:09:24.253
+!MESSAGE Failed to resolve selection in '=Exam1/src<{DateLogger.java' at offset 0
+!STACK 1
+Java Model Exception: Java Model Status [Exam1 does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:539)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:552)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:289)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:1642)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:59)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:66)
+	at org.eclipse.jdt.internal.core.JavaProject.newSearchableNameEnvironment(JavaProject.java:2354)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:149)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:377)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:371)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromTypeRootInEditor(JavaSelectionUtils.java:147)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromEditor(JavaSelectionUtils.java:129)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionUtils.resolveJavaElementFromEditor(JavaSelectionUtils.java:112)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider.handleSelectionInEditor(JavaSelectionProvider.java:108)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider.access$1(JavaSelectionProvider.java:105)
+	at org.eclipse.recommenders.internal.rcp.providers.JavaSelectionProvider$1.run(JavaSelectionProvider.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2014-06-26 21:09:24.254
+!MESSAGE Exam1 does not exist
+!SESSION 2014-07-01 18:27:41.441 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-01 18:28:10.850
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\John'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-07-01 23:44:18.231 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-01 23:46:37.824
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\John'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
