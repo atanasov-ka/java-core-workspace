@@ -1,0 +1,63 @@
+package crawer;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URI;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Crawer {
+	public static String search(URL url, String token, int levels, String encoding) throws IOException
+	{
+		if (levels < 0)
+			return null;
+		
+		
+		String dataForAnalyze = getUrlSource(url.toString(), encoding);
+		if (dataForAnalyze.contains(token))
+		{
+			return url;
+		}
+		
+		List<String> links = getAllLinks(dataForAnalyze);
+		for (String string : links) {
+			String tempUrl = search(string, token, levels - 1, encoding);
+			if (tempUrl != null){
+				return tempUrl;
+			}
+		}
+		
+		
+		return null;
+	}
+	
+	private static String getUrlSource(String url, String encoding) throws IOException {
+        URL yahoo = new URL(url);
+        URLConnection yc = yahoo.openConnection();
+        BufferedReader in = new BufferedReader(new InputStreamReader(yc.getInputStream(), encoding));
+        String inputLine;
+        StringBuilder a = new StringBuilder();
+        while ((inputLine = in.readLine()) != null)
+            a.append(inputLine);
+        in.close();
+
+        return a.toString();
+    }
+	
+	private static List<String> getAllLinks(String content) {
+        ArrayList<String> resultList = new ArrayList<>();
+        String regex = "<a.*?href=\"((?!javascript).*?)\".*?>";
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(content);
+        while (matcher.find()) {
+            resultList.add(matcher.group(1));
+        }
+        return resultList;
+    }
+	
+}

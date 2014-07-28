@@ -43,5 +43,10 @@
     "location": "D:\\Users\\John\\workspace2\\ImageReader\\src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027D:\\Users\\John\\workspace2\\ImageReader\\src\u0027. Skipped."
+  },
+  "D:\\Users\\John\\workspace2\\StructuredData\\src": {
+    "location": "D:\\Users\\John\\workspace2\\StructuredData\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Users\\John\\workspace2\\StructuredData\\src\u0027. Skipped."
   }
 }

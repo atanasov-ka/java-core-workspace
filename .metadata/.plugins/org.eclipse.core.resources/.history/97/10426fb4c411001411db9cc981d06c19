@@ -1,0 +1,14 @@
+package crawer;
+
+import java.io.IOException;
+
+public class Main {
+
+	public static void main(String[] args) {
+		try {
+			System.out.println(Crawer.search("http://ebusiness.free.bg", "Револвираща", 10, "UTF-8"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

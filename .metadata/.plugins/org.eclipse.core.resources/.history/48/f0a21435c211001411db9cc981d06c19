@@ -1,0 +1,11 @@
+package crawer;
+
+import java.net.URI;
+
+public class Crawer {
+	public static URI search(URI webSite, String token, int levels)
+	{
+		
+		return null;
+	}
+}
